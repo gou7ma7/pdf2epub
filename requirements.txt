@@ -1,0 +1,2 @@
+# Deprecated: use pyproject.toml + uv
+# Install: uv pip install -e .

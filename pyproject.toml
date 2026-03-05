@@ -1,0 +1,17 @@
+[project]
+name = "pdf2epub"
+version = "0.1.0"
+description = "PDF -> EPUB converter with controllable text cleanup (header/footer + ad paragraphs)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "convert_to_ebook contributors" }]
+dependencies = [
+  "pymupdf>=1.24",
+  "EbookLib>=0.18",
+  "PyYAML>=6.0",
+]
+
+[tool.uv]
+# uv will create/manage a virtualenv and can lock deps if you run `uv lock`.
+
